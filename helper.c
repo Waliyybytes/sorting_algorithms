@@ -42,32 +42,3 @@ void print_list(const listint_t *list)
 	}
 	printf("\n");
 }
-
-/**
- * greater - checks which is greater
- *
- * @a: member
- * @b: member
- * Return: 1 for True
- */
-int greater(int a, int b)
-{
-	return (a > b);
-}
-
-/**
- * swap - swaps two contiguous elements based on some condition
- * @array: array to swap its elements
- * @i: member position
- * @j: member position
- * Return: 1 for True
- */
-void swap(int *array, int i, int j)
-{
-	int temp;
-
-	temp = array[i];
-	array[i] = array[j];
-	array[j] = temp;
-}
-

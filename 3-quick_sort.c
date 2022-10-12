@@ -2,6 +2,24 @@
 
 
 /**
+ * swap- function
+ * @array: array to sort
+ * @i: index
+ * @j: index
+ * Return: Nothing
+ */
+
+void swap(int *array, int i, int j)
+{
+	int temp;
+
+	temp = array[i];
+	array[i] = array[j];
+	array[j] = temp;
+}
+
+
+/**
  * sort_partition- function
  * @array: array to sort
  * @lo: member
